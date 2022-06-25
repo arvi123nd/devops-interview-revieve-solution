@@ -42,3 +42,18 @@ To evaluate our customers, we need a `customer_ranking.csv` containing the follo
 * `firstname` customer first name
 * `lastname` customer last name
 * `total_euros` total euros this customer has spent on products
+
+# Solution
+
+## Procedure
+
+1. Put the following files in **`reports_in`** folder
+    * customers.csv
+    * orders.csv
+    * products.csv
+
+2. Execute
+```bash
+bash reports.sh
+```
+3. Get the expected reports from **`reports_out`** folder
