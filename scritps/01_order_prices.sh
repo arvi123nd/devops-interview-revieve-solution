@@ -30,3 +30,6 @@ while IFS="," read -r id customer products; do
 #done < <(tail -n +2 ../reports_in/orders.csv | head -n 10)
 done < <(tail -n +2 ../reports_in/orders.csv )
 IFS=$OLDIFS
+
+#Removing Associative Array
+unset prodcost

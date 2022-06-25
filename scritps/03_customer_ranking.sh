@@ -48,3 +48,7 @@ echo "id,firstname,lastname,total_euros" > ../reports_out/customer_ranking.csv
 sort  -r -t ',' -k4 -g ../reports_out/customer_ranking_tmp.csv >> ../reports_out/customer_ranking.csv
 rm -rf ../reports_out/customer_ranking_tmp.csv
 IFS=$OLDIFS
+
+#Removing Associative Arrays
+unset orders
+unset ord_prices
