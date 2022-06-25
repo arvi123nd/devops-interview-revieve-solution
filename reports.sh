@@ -1,9 +1,6 @@
 #!/bin/bash
 
 
-
-#id,customer,products
-
 cd scritps
 echo "##################"
 echo "Start First report"
