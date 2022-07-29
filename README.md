@@ -43,11 +43,11 @@ To evaluate our customers, we need a `customer_ranking.csv` containing the follo
 * `lastname` customer last name
 * `total_euros` total euros this customer has spent on products
 
-# Solution
+# Solution(Python)
 
-## Procedure
+## Steps
 
-1. Put the following files in **`reports_in`** folder
+1. Place the following input files in **`reports_in`** folder
     * customers.csv
     * orders.csv
     * products.csv
@@ -56,4 +56,4 @@ To evaluate our customers, we need a `customer_ranking.csv` containing the follo
 ```bash
 bash reports.sh
 ```
-3. Get the expected reports from **`reports_out`** folder
+3. Get the expected output reports from **`reports_out`** folder
