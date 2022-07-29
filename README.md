@@ -54,6 +54,6 @@ To evaluate our customers, we need a `customer_ranking.csv` containing the follo
 
 2. Execute
 ```bash
-bash reports.sh
+bash generate_reports.sh
 ```
 3. Get the expected output reports from **`reports_out`** folder
